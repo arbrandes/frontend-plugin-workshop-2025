@@ -18,7 +18,7 @@ The Frontend Plugin Framework is designed to be an extension point to customize 
 
 For this workshop you have two options:
 
-* Connect to one of the [pre-built VMs](./connect_to_vm.md) we're providing for workshop attendees.
+* [Connect to one of the pre-built VMs](./connect_to_vm.md) we're providing for workshop attendees.
 
 **OR**
 
