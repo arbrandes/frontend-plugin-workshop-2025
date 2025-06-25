@@ -56,8 +56,10 @@ A specific plugin configuration:
 
 ```jsx
 ...
+import MyOrgFooter from '@myorg/custom-footer'
+...
 footer_slot: {
-  keepDefault: true,
+  keepDefault: false,
   plugins: [
     {
       op: PLUGIN_OPERATIONS.Insert,
@@ -141,20 +143,6 @@ Once the system settles, import the demo course as follows.
 tutor dev do importdemocourse
 tutor dev run cms ./manage.py cms update_course_outline course-v1:OpenedX+DemoX+DemoCourse
 ```
-
-### Extra credit: running the Frontend Plugin Framework example
-
-```bash
-git clone git@github.com:openedx/frontend-plugin-framework.git
-make requirements
-
-# On one screen
-npm run start
-
-# On another screen
-npm run start:example
-```
-
 
 ## Basic Plugin development
 
