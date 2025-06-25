@@ -9,5 +9,5 @@ We will have multiple presenters and two separate “tracks” for attendees. In
 
 Choose the document that matches the track you intend to participate in:
 
-- [Operators](operators/README.md)
-- [Developers](developers/README.md)
+- [Operators](docs/operators.md)
+- [Developers](docs/developers.md)
