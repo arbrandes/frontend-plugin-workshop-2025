@@ -6,7 +6,7 @@ Test the connection with the IP address you were provided:
 ssh -o TCPKeepAlive=yes -o ServerAliveInterval=120 workshop@{IP_YOU_SELECTED}
 ```
 
-You'll need to use SSH port forwarding before you can access the Open edX instance using your browser.  Use the included [script](./connection.sh) to easily forward the dev ports:
+You'll need to use SSH port forwarding before you can access the Open edX instance using your browser.  Use the included [script](../scripts/connect.sh) to easily forward the dev ports:
 
 ```bash
 ip=THE_IP_YOU_SELECTED
