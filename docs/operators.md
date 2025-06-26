@@ -67,9 +67,7 @@ There are more example plugins for this workshop [here](../operators/). We also 
 
 You've now made it to the "choose your own adventure" part of the workshop! The best thing to do now is find a part of the platform that has a plugin slot you'd like to use and try using it!
 
-## Getting a plugin ready for production use
-
-This workshop has
+## Next steps: Getting a plugin ready for production use
 
 Once you're happy with your plugin, you'll likely want to be able to use it in a production environment.
 

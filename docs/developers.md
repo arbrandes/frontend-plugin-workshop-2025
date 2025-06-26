@@ -9,7 +9,7 @@ During the workshop we'll attempt to do the following:
 1. Create plugin slot: modify the existing MFE to define a new area of the UI that can be customized
 1. Put default into slot: If necessary, keep the existing functionality as the default contents of the slot
 1. Override slot: create your new plugin that adds/replaces content in the slot
-1. Publish: package your plugin for ease of use
+1. Discuss Publishing: see how you might package your plugin for ease of use
 
 ## Source code
 
@@ -102,11 +102,15 @@ Each slot should be properly documented with:
 
 See [the README for UnitTitleSlot](https://github.com/openedx/frontend-app-learning/blob/master/src/plugin-slots/UnitTitleSlot/README.md) as an example.
 
-## Step 6. Publication
+## Next Steps: Publication
 
 If your plugin is intended for anybody to be able to use, or just if it's too complex to live in a single `env.config.jsx`, it's a good idea to publish it to NPM.
 
-Let's take a look at how Aspects does it.  First, let's examine it's frontend plugin:
+Publishing a plugin can include a lot of moving pieces, and therefore is outside of the scope of this workshop. If you reach out on [the forums](https://discuss.openedx.org/) or in [the `#wg-frontend` channel on slack](https://openedx.slack.com/archives/C04BM6YC7A6) after the workshop people will be happy to help!
+
+One wonderful example to follow is the Aspects plugin.
+
+First, let's examine it's frontend plugin:
 
 - https://github.com/openedx/frontend-plugin-aspects
 
@@ -116,5 +120,3 @@ Next, let's see how it's used in its Tutor plugin:
 - https://github.com/openedx/tutor-contrib-aspects/blob/main/tutoraspects/patches/mfe-dockerfile-post-npm-install-authoring
 - https://github.com/openedx/tutor-contrib-aspects/blob/main/tutoraspects/patches/mfe-env-config-runtime-definitions-authoring
 - https://github.com/overhangio/tutor-mfe/blob/release/tutormfe/templates/mfe/build/mfe/env.config.jsx
-
-TODO: create a simplified version of the above specific to the workshop.
