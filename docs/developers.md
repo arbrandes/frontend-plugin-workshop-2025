@@ -29,15 +29,17 @@ For this workshop you have two options:
 
 ## Step 1. Creating a slot
 
-> ![NOTE]
+> ℹ️ NOTE
+> 
 > The pre-built VMs have `frontend-app-learner-dashboard` mounted.
+> 
 > You can see current mounts by running `tutor mounts list`
+> 
 > You can remove mounts by running `tutor mounts remove /path/to/mounted/mfe`
 
 Start by mounting the Learning MFE in dev mode and running it outside the Docker container:
 
 ```bash
-git clone git@github.com:openedx/frontend-app-learning.git
 tutor mounts add frontend-app-learner-dashboard/
 tutor dev start lms mfe -d
 cd frontend-app-learning
