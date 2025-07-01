@@ -12,7 +12,7 @@ The script is in the `frontend-plugin-workshop-2025` repo, `scripts/connect.sh`.
 
 #### Manual
 ```bash
-ssh -o TCPKeepAlive=yes -o ServerAliveInterval=120 $(for i in 8000 8001 1984 1993 1994 1995 1996 1997 1999 2000 2001 2002; do echo -L $i:localhost:$i ; done) workshop@{IP_YOU_SELECTED};
+ssh -o TCPKeepAlive=yes -o ServerAliveInterval=120 $(for i in 8000 8001 1984 1993 1994 1995 1996 1997 1999 2000 2001 2002; do echo -L ${i}:localhost:${i} ; done) workshop@{IP_YOU_SELECTED};
 ```
 
 ## Using Tutor
